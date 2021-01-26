@@ -1,0 +1,10 @@
+C:\Users\iyona\source\repos\Area\Area\bin\Debug\Area.exe.config
+C:\Users\iyona\source\repos\Area\Area\bin\Debug\Area.exe
+C:\Users\iyona\source\repos\Area\Area\bin\Debug\Area.pdb
+C:\Users\iyona\source\repos\Area\Area\obj\Debug\Area.csprojAssemblyReference.cache
+C:\Users\iyona\source\repos\Area\Area\obj\Debug\Area.Area.resources
+C:\Users\iyona\source\repos\Area\Area\obj\Debug\Area.Properties.Resources.resources
+C:\Users\iyona\source\repos\Area\Area\obj\Debug\Area.csproj.GenerateResource.cache
+C:\Users\iyona\source\repos\Area\Area\obj\Debug\Area.csproj.CoreCompileInputs.cache
+C:\Users\iyona\source\repos\Area\Area\obj\Debug\Area.exe
+C:\Users\iyona\source\repos\Area\Area\obj\Debug\Area.pdb

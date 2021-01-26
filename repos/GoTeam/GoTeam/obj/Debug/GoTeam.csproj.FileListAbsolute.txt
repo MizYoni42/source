@@ -1,0 +1,10 @@
+C:\Users\iyona\source\repos\GoTeam\GoTeam\bin\Debug\GoTeam.exe.config
+C:\Users\iyona\source\repos\GoTeam\GoTeam\bin\Debug\GoTeam.exe
+C:\Users\iyona\source\repos\GoTeam\GoTeam\bin\Debug\GoTeam.pdb
+C:\Users\iyona\source\repos\GoTeam\GoTeam\obj\Debug\GoTeam.csprojAssemblyReference.cache
+C:\Users\iyona\source\repos\GoTeam\GoTeam\obj\Debug\GoTeam.Form1.resources
+C:\Users\iyona\source\repos\GoTeam\GoTeam\obj\Debug\GoTeam.Properties.Resources.resources
+C:\Users\iyona\source\repos\GoTeam\GoTeam\obj\Debug\GoTeam.csproj.GenerateResource.cache
+C:\Users\iyona\source\repos\GoTeam\GoTeam\obj\Debug\GoTeam.csproj.CoreCompileInputs.cache
+C:\Users\iyona\source\repos\GoTeam\GoTeam\obj\Debug\GoTeam.exe
+C:\Users\iyona\source\repos\GoTeam\GoTeam\obj\Debug\GoTeam.pdb
