@@ -110,6 +110,7 @@ namespace Convert
             this.FahrtoC.TabStop = true;
             this.FahrtoC.Text = "Fahr to Celsius";
             this.FahrtoC.UseVisualStyleBackColor = true;
+            this.FahrtoC.CheckedChanged += new System.EventHandler(this.FahrtoC_CheckedChanged);
             // 
             // CtoFahr
             // 
@@ -123,6 +124,7 @@ namespace Convert
             this.CtoFahr.TabStop = true;
             this.CtoFahr.Text = "Celsius to fahr";
             this.CtoFahr.UseVisualStyleBackColor = true;
+            this.CtoFahr.CheckedChanged += new System.EventHandler(this.CtoFahr_CheckedChanged);
             // 
             // clearBtn
             // 

@@ -18,12 +18,35 @@ namespace Convert
             
         }
 
-        private void ExitBtn_Click(object sender, EventArgs e)
+
+        private void FahrtoC_CheckedChanged(object sender, EventArgs e)
         {
-            //Console.WriteLine("Exit Button was pressed.");
-            Application.Exit();
-           
+            if (FahrtoC.Checked == true)
+            {
+                Console.WriteLine("FahrtoC is selected");
+                Form1.ActiveForm.Text = "FahrtoC";
+                celsTxtbox.Visible = false;
+
+            }
         }
+
+
+
+        private void CtoFahr_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CtoFahr.Checked == true)
+            {
+                Console.WriteLine("CtoFahr is selected");
+                Form1.ActiveForm.Text = "CtoFahr";
+                fahrTxtbox.Visible = false;
+
+            }
+        }
+
+
+
+
+
 
         private void ConvertBtn_Click(object sender, EventArgs e)
          
@@ -70,9 +93,21 @@ namespace Convert
                 fahrTxtbox.Text = r;
             }
 
-            
-            
-                }
+
+            if (celsTxtbox.Visible == false)
+                celsTxtbox.Visible = true;
+            else
+                celsTxtbox.Visible = true;
+
+            if (fahrTxtbox.Visible == false)
+                fahrTxtbox.Visible = true;
+            else
+                fahrTxtbox.Visible = true;
+
+
+
+
+        }
 
 
         private void clearBtn_Click(object sender, EventArgs e)
@@ -81,8 +116,23 @@ namespace Convert
             celsTxtbox.Clear();
         }
 
-      
-        
+
+        private void ExitBtn_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("Exit Button was pressed.");
+
+
+            if (MessageBox.Show("Are you sure you want to Exit?",
+                               "Weather Conversion Program Exit",
+                                MessageBoxButtons.YesNo,
+                                MessageBoxIcon.Information) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+
+        }
+
+
     }
     }
     
