@@ -41,6 +41,9 @@ namespace Area
             this.radioBtn1 = new System.Windows.Forms.RadioButton();
             this.radioBtn2 = new System.Windows.Forms.RadioButton();
             this.radioBtn3 = new System.Windows.Forms.RadioButton();
+            this.lengthTxtbox = new System.Windows.Forms.TextBox();
+            this.lengthLabel = new System.Windows.Forms.Label();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // radiusBtn
@@ -172,11 +175,29 @@ namespace Area
             this.radioBtn3.UseVisualStyleBackColor = true;
             this.radioBtn3.CheckedChanged += new System.EventHandler(this.radioBtn3_CheckedChanged);
             // 
+            // lengthTxtbox
+            // 
+            this.lengthTxtbox.Location = new System.Drawing.Point(621, 107);
+            this.lengthTxtbox.Name = "lengthTxtbox";
+            this.lengthTxtbox.Size = new System.Drawing.Size(100, 20);
+            this.lengthTxtbox.TabIndex = 12;
+            // 
+            // lengthLabel
+            // 
+            this.lengthLabel.AutoSize = true;
+            this.lengthLabel.Location = new System.Drawing.Point(535, 107);
+            this.lengthLabel.Name = "lengthLabel";
+            this.lengthLabel.Size = new System.Drawing.Size(43, 13);
+            this.lengthLabel.TabIndex = 13;
+            this.lengthLabel.Text = "Length:";
+            // 
             // Area
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lengthLabel);
+            this.Controls.Add(this.lengthTxtbox);
             this.Controls.Add(this.radioBtn3);
             this.Controls.Add(this.radioBtn2);
             this.Controls.Add(this.radioBtn1);
@@ -210,6 +231,9 @@ namespace Area
         private System.Windows.Forms.RadioButton radioBtn1;
         private System.Windows.Forms.RadioButton radioBtn2;
         private System.Windows.Forms.RadioButton radioBtn3;
+        private System.Windows.Forms.TextBox lengthTxtbox;
+        private System.Windows.Forms.Label lengthLabel;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 

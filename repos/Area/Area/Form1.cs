@@ -30,7 +30,7 @@ namespace Area
                 Area.ActiveForm.Text = "Radius";
                 areaTxtbox.Visible = false;
                 widthTxtbox.Visible = false;
-               // lengthTxtbox.Visible = false;
+                lengthTxtbox.Visible = false;
 
             }
 
@@ -48,7 +48,7 @@ namespace Area
                 Area.ActiveForm.Text = "Side";
                 areaTxtbox.Visible = false;
                 radiusTxtbox.Visible = false;
-             //   lengthTxtbox.Visible = false;
+                lengthTxtbox.Visible = false;
 
             }
 
@@ -114,14 +114,14 @@ namespace Area
 
                 int f = Int32.Parse(fString);   //convert the fString to an interger and store it in variable f
 
-              //  string lString = lengthTxtbox.Text;  //all data entered in a Textbox is entered as a String
+                string lString = lengthTxtbox.Text;  //all data entered in a Textbox is entered as a String
 
-            //    int l = Int32.Parse(lString);   //convert the fString to an interger and store it in variable f
+                int l = Int32.Parse(lString);   //convert the fString to an interger and store it in variable f
                 // now you can use f in a calculation
 
-               // double A = f * l;
-              //  string r = A.ToString();
-             //   areaTxtbox.Text = r;
+                double A = f * l;
+                string r = A.ToString();
+                areaTxtbox.Text = r;
             }
 
 
@@ -152,7 +152,7 @@ namespace Area
            widthTxtbox.Clear();
            radiusTxtbox.Clear();
            areaTxtbox.Clear();
-         //   lengthTxtbox.Clear();
+           lengthTxtbox.Clear();
 
         }
 
