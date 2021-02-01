@@ -170,6 +170,7 @@ namespace Area
             this.radioBtn3.TabStop = true;
             this.radioBtn3.Text = "Rectangle";
             this.radioBtn3.UseVisualStyleBackColor = true;
+            this.radioBtn3.CheckedChanged += new System.EventHandler(this.radioBtn3_CheckedChanged);
             // 
             // Area
             // 
