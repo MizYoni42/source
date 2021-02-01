@@ -17,6 +17,9 @@ namespace Area
             InitializeComponent();
         }
 
+
+
+        //CIRCLE RADIO BUTTON
         private void radioBtn1_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -32,8 +35,26 @@ namespace Area
 
         }
 
-            
 
+
+        //SQUARE RADIO BUTTON
+        private void radioBtn2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioBtn2.Checked == true)
+
+            {
+                Console.WriteLine("Square is selected");
+                Area.ActiveForm.Text = "Side";
+                areaTxtbox.Visible = false;
+                radiusTxtbox.Visible = false;
+
+            }
+
+
+        }
+
+
+        //CALC AREA BUTTON
         private void calcAreabtn_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Calc Area Button was Pressed");
@@ -52,6 +73,27 @@ namespace Area
                 areaTxtbox.Text = r;
             }
 
+
+            if (radioBtn2.Checked == true)
+
+            {
+                string fString = widthTxtbox.Text;  //all data entered in a Textbox is entered as a String
+
+                int f = Int32.Parse(fString);   //convert the fString to an interger and store it in variable f
+
+                // now you can use f in a calculation
+
+                double A = f * f;
+                string r = A.ToString();
+                areaTxtbox.Text = r;
+            }
+
+
+
+
+
+
+
             if (areaTxtbox.Visible == false)
                 areaTxtbox.Visible = true;
             else
@@ -59,6 +101,10 @@ namespace Area
 
 
         }
+
+
+
+
 
 
 
@@ -81,6 +127,9 @@ namespace Area
 
 
 
+
+
+
             //EXIT BUTTON
         private void exitBtn_Click(object sender, EventArgs e)
         {
@@ -95,6 +144,7 @@ namespace Area
                 Application.Exit();
             }
         }
+
 
     }
 }

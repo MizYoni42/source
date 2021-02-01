@@ -157,6 +157,7 @@ namespace Area
             this.radioBtn2.TabStop = true;
             this.radioBtn2.Text = "Square";
             this.radioBtn2.UseVisualStyleBackColor = true;
+            this.radioBtn2.CheckedChanged += new System.EventHandler(this.radioBtn2_CheckedChanged);
             // 
             // radioBtn3
             // 
